@@ -5,3 +5,32 @@
     --olive-leaf: #646536ff;
     --dark-khaki: #483d03ff;
 }
+
+body {
+    background-color: var(--dark-khaki);
+    font-family: system-ui, "Segoe UI", sans-serif;
+
+}
+
+#content-container {
+    width: 90%;
+    max-width: 800px;
+    padding: 24px;
+    margin: 0 auto;
+    background-color: var(--olive-leaf);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--tea-green);
+    margin-right: 12px;
+}
+
+#currentPage {
+    color: var(--muted-teal);
+}
