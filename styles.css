@@ -12,6 +12,8 @@ body {
     background-color: var(--black);
     font-family: system-ui, "Segoe UI", sans-serif;
     color: var(--orange);
+    background-image:url(./images/4268145.jpg);
+    background-size: auto;
 }
 
 #content-container {
