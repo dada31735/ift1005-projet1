@@ -1,9 +1,11 @@
+/*palette de couleurs généré par :  https://coolors.co/image-picker 
+à partir d'une image de la couverture du jeu*/
 :root {
-    --orange: #ff7d25;
-    --olive: #9ca576;
-    --blue: #174e7d;
-    --purple: #6a4d75;
-    --black: #0b1e26;
+    --orange: #FF7B27ff;
+    --golden-sand: #D4C44Aff;
+    --vintage-berry: #7F4F69ff;
+    --pacific-blue: #41A4B7ff;
+    --black: #020203ff;
 }
 
 
@@ -18,7 +20,7 @@ body {
     max-width: 800px;
     padding: 24px;
     margin: 0 auto;
-    background-color: var(--purple);
+    background-color: var(--vintage-berry);
 }
 
 nav {
@@ -28,9 +30,10 @@ nav {
 
 nav a{
     text-decoration: none;
+    color: var(--orange);
     margin-right: 12px;
 }
 
 #currentPage {
-    color: var(--olive);
+    color: var(--golden-sand);
 }
