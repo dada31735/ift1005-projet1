@@ -1,9 +1,8 @@
-/*palette de couleurs généré par :  https://coolors.co/image-picker 
-à partir d'une image de la couverture du jeu*/
+/*palette de couleurs généré par :  https://coolors.co/image-picker à partir d'une image de la couverture du jeu*/
 :root {
     --orange: #FF7B27ff;
     --golden-sand: #D4C44Aff;
-    --vintage-berry: #7F4F69ff;
+    --vintage-berry: rgb(53, 25, 40);
     --pacific-blue: #41A4B7ff;
     --black: #020203ff;
 }
@@ -36,4 +35,8 @@ nav a{
 
 #currentPage {
     color: var(--golden-sand);
+}
+
+#spoilerText {
+    color: red;
 }
