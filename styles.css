@@ -1,15 +1,16 @@
 :root {
-    --tea-green: #d0f1bfff;
-    --celadon: #b6d7b9ff;
-    --muted-teal: #9abd97ff;
-    --olive-leaf: #646536ff;
-    --dark-khaki: #483d03ff;
+    --orange: #ff7d25;
+    --olive: #9ca576;
+    --blue: #174e7d;
+    --purple: #6a4d75;
+    --black: #0b1e26;
 }
 
-body {
-    background-color: var(--dark-khaki);
-    font-family: system-ui, "Segoe UI", sans-serif;
 
+body {
+    background-color: var(--black);
+    font-family: system-ui, "Segoe UI", sans-serif;
+    color: var(--orange);
 }
 
 #content-container {
@@ -17,7 +18,7 @@ body {
     max-width: 800px;
     padding: 24px;
     margin: 0 auto;
-    background-color: var(--olive-leaf);
+    background-color: var(--purple);
 }
 
 nav {
@@ -27,10 +28,9 @@ nav {
 
 nav a{
     text-decoration: none;
-    color: var(--tea-green);
     margin-right: 12px;
 }
 
 #currentPage {
-    color: var(--muted-teal);
+    color: var(--olive);
 }
