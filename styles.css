@@ -67,11 +67,6 @@ li {
     margin-bottom: 12px;
 }
 
-ul ul {
-    margin-top: 12px;
-    border-left: 2px solid var(--pacific-blue);
-}
-
 footer {
     margin-top: 24px;
     padding-top: 12px;
