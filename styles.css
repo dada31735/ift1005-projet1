@@ -40,6 +40,10 @@ h2, h3 {
     color: var(--golden-sand);
 }
 
+h4 {
+  text-decoration: underline;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -92,4 +96,21 @@ img {
     margin: 60px auto 30px;
     width: 80%;
     text-align: center;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.img-in-text {
+  float:left;
+  width:40%;
+  margin-right: 1%;
+}
+
+.special-text {
+  font-style: italic;
+  font-weight: bolder;
 }
