@@ -79,3 +79,9 @@ footer {
 #spoilerText {
     color: red;
 }
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
