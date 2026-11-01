@@ -82,8 +82,19 @@ footer {
 
 img {
     width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--pacific-blue);
 }
 
 #spoilerText {
     color: red;
+}
+
+.timeline-ending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto 30px;
+    width: 80%;
+    text-align: center;
 }
