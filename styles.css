@@ -114,3 +114,27 @@ img {
   font-style: italic;
   font-weight: bolder;
 }
+
+.img-in-ul {
+    float: right;
+    width: 15%;
+    margin-left: 15px;
+}
+
+#eye-logo-img {
+    width: 120px;
+    float: right;
+    border: none;
+}
+
+#lune-quantique-img {
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--pacific-blue);
+}
