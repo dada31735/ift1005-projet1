@@ -1,5 +1,4 @@
 /* Fait par : Dumitru Gliga(20364289) et Pascal Brunet(20365645)  */
-/*palette de couleurs généré par :  https://coolors.co/image-picker à partir d'une image de la couverture du jeu*/
 :root {
   --orange: #FF914DFF;
   --golden-sand: #d4c44aff;
@@ -16,6 +15,7 @@ body {
   background-size: 120% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: bottom right;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -111,11 +111,6 @@ img {
   float: left;
   width: 40%;
   margin-right: 1%;
-}
-
-.special-text {
-  font-style: italic;
-  font-weight: bolder;
 }
 
 .img-in-ul {
