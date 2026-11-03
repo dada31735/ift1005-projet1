@@ -1,44 +1,44 @@
 /* Fait par : Dumitru Gliga(20364289) et Pascal Brunet(20365645)  */
 /*palette de couleurs généré par :  https://coolors.co/image-picker à partir d'une image de la couverture du jeu*/
 :root {
-    --orange: #FF7B27ff;
-    --golden-sand: #D4C44Aff;
-    --vintage-berry: rgb(53, 25, 40);
-    --pacific-blue: #41A4B7ff;
-    --black: #020203ff;
+  --orange: #ff7b27ff;
+  --golden-sand: #d4c44aff;
+  --vintage-berry: rgb(53, 25, 40);
+  --pacific-blue: #41a4b7ff;
+  --black: #020203ff;
 }
 
-
 body {
-    background-color: var(--black);
-    font-family: system-ui, "Segoe UI", sans-serif;
-    color: var(--orange);
-    background-image:url(./images/4268145.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-size: 16px;
-    line-height: 1.6;
+  background-color: var(--black);
+  font-family: system-ui, "Segoe UI", sans-serif;
+  color: var(--orange);
+  background-image: url(./images/4268145.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 #content-container {
-    width: 90%;
-    max-width: 800px;
-    padding: 24px;
-    margin: 24px auto;
-    background-color: var(--vintage-berry);
-    overflow-wrap: break-word;
-    border: 1px solid var(--golden-sand);
-    box-shadow: 0 0 12px rgba(212, 196, 74, 0.15);
+  width: 90%;
+  max-width: 800px;
+  padding: 24px;
+  margin: 24px auto;
+  background-color: var(--vintage-berry);
+  overflow-wrap: break-word;
+  border: 1px solid var(--golden-sand);
+  box-shadow: 0 0 12px rgba(212, 196, 74, 0.15);
 }
 
 h1 {
-    text-align: center;
-    color: var(--golden-sand);
+  text-align: center;
+  color: var(--golden-sand);
 }
 
-h2, h3 {
-    color: var(--golden-sand);
+h2,
+h3 {
+  color: var(--golden-sand);
 }
 
 h4 {
@@ -46,57 +46,57 @@ h4 {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 12px;
-    margin-bottom: 24px;
-    border-bottom: 1px solid var(--orange);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--orange);
 }
 
-nav a{
-    text-decoration: none;
-    color: var(--orange);
-    margin: 0 8px;
+nav a {
+  text-decoration: none;
+  color: var(--orange);
+  margin: 0 8px;
 }
 
 nav a:hover {
-    color: var(--pacific-blue);
+  color: var(--pacific-blue);
 }
 
 #currentPage {
-    color: var(--golden-sand);
+  color: var(--golden-sand);
 }
 
 li {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 footer {
-    margin-top: 24px;
-    padding-top: 12px;
-    border-top: 1px solid var(--orange);
-    font-size: 14px;
-    text-align: center;
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid var(--orange);
+  font-size: 14px;
+  text-align: center;
 }
 
 img {
-    width: 100%;
-    border-radius: 6px;
-    border: 1px solid var(--pacific-blue);
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--pacific-blue);
 }
 
 #spoilerText {
-    color: red;
+  color: red;
 }
 
 .timeline-ending {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 60px auto 30px;
-    width: 80%;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto 30px;
+  width: 80%;
+  text-align: center;
 }
 
 .section {
@@ -106,8 +106,8 @@ img {
 }
 
 .img-in-text {
-  float:left;
-  width:40%;
+  float: left;
+  width: 40%;
   margin-right: 1%;
 }
 
@@ -117,25 +117,38 @@ img {
 }
 
 .img-in-ul {
-    float: right;
-    width: 15%;
-    margin-left: 15px;
+  float: right;
+  width: 15%;
+  margin-left: 15px;
 }
 
 #eye-logo-img {
-    width: 120px;
-    float: right;
-    border: none;
+  width: 120px;
+  float: right;
+  border: none;
 }
 
 #lune-quantique-img {
-    width: 150px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 16px;
+  width: 150px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 16px;
 }
 
 a {
-    text-decoration: none;
-    color: var(--pacific-blue);
+  text-decoration: none;
+  color: var(--pacific-blue);
+}
+
+/* TODO: Make cleaner and position relative to main, not a fixed right position */
+.signet {
+  position: absolute;
+  right: 200px;
+  background-color: var(--vintage-berry);
+  border: 0.5px solid var(--golden-sand);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: larger;
 }
