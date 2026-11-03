@@ -16,6 +16,7 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: bottom right;
   font-size: 16px;
   line-height: 1.6;
 }
