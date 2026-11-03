@@ -79,6 +79,7 @@ footer {
   border-top: 1px solid var(--orange);
   font-size: 14px;
   text-align: center;
+  position: relative;
 }
 
 img {
@@ -134,14 +135,16 @@ img {
   margin-top: 40px;
   margin-bottom: 40px;
   margin-right: 16px;
+  border-radius: 50%;
 }
 
 a {
   text-decoration: none;
   color: var(--pacific-blue);
 }
-svg { 
-    float: left;
+
+svg {
+  float: left;
 }
 
 .signet {
@@ -155,4 +158,28 @@ svg {
   height: 30px;
   text-align: center;
   font-size: larger;
+}
+
+.logo-badge {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--vintage-berry);
+  border: 2px solid var(--golden-sand);
+  box-shadow:
+    0 2px 5px var(--black),
+    inset 0 2px 5px var(--orange);
+
+  color: var(--golden-sand);
+  font-size: 10px;
+  font-weight: bold;
 }
