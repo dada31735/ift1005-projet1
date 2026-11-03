@@ -4,7 +4,7 @@ lien github : https://github.com/dada31735/ift1005-projet1
 
 ## But du site
 
-Un site qui documente la ligne de temps de l'ancienne civilization des nomai. Une civilization fictif du jeu Outer Wilds.
+Un site qui documente la ligne du temps de l'ancienne civilization des nomai. Une civilization fictif du jeu Outer Wilds.
 
 ## Structure du site (les 5 pages)
 
@@ -12,7 +12,7 @@ Un site qui documente la ligne de temps de l'ancienne civilization des nomai. Un
 
 But du site et présentation globale des Nomai et du Jeu.
 
-### Ligne de temps
+### Ligne du temps
 
 Expliquer comment les Nomais sont rendu dans notre galaxy et ce qu'ils leurs est arrivé.
 Sources pour info:
