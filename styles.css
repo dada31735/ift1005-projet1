@@ -1,7 +1,7 @@
 /* Fait par : Dumitru Gliga(20364289) et Pascal Brunet(20365645)  */
 /*palette de couleurs généré par :  https://coolors.co/image-picker à partir d'une image de la couverture du jeu*/
 :root {
-  --orange: #ff7b27ff;
+  --orange: #FF914DFF;
   --golden-sand: #d4c44aff;
   --vintage-berry: rgb(53, 25, 40);
   --pacific-blue: #41a4b7ff;
@@ -13,7 +13,7 @@ body {
   font-family: system-ui, "Segoe UI", sans-serif;
   color: var(--orange);
   background-image: url(./images/4268145.jpg);
-  background-size: 100% auto;
+  background-size: 120% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-size: 16px;
