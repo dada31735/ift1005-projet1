@@ -21,6 +21,7 @@ body {
 }
 
 #content-container {
+  position: relative;
   width: 90%;
   max-width: 800px;
   padding: 24px;
@@ -140,10 +141,10 @@ a {
   color: var(--pacific-blue);
 }
 
-/* TODO: Make cleaner and position relative to main, not a fixed right position */
 .signet {
   position: absolute;
-  right: 200px;
+  right: 0;
+  transform: translateX(50%);
   background-color: var(--vintage-berry);
   border: 0.5px solid var(--golden-sand);
   border-radius: 50%;
