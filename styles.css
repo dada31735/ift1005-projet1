@@ -97,12 +97,13 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 30%;
   text-align: center;
 }
 
 #image-fin-civ-nomai {
   margin: 60px auto 30px;
+  width: 80%;
 }
 
 #image-oeuil-univers {
