@@ -166,8 +166,8 @@ svg {
   right: 10px;
   top: 10px;
 
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 
   display: flex;
@@ -181,6 +181,5 @@ svg {
     inset 0 2px 5px var(--orange);
 
   color: var(--golden-sand);
-  font-size: 10px;
   font-weight: bold;
 }
