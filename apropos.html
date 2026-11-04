@@ -24,8 +24,91 @@
     <main>
       <h2>À propos</h2>
       <h3>Public cible</h3>
+      <p>
+        Toutes personnes qui sont intéréssés par la civilisation extraterrestre des Nomais du jeu.
+        Le jeu raconte leur histoire de manière non-linéaire et donc ce site peut éclaircir les détails qu'un joueur aurait pu manquer lors de leur parcours du jeu.  
+      </p>
       <h3>Respect des principes de conception de page web </h3>
+      <h4>Respect des 4 principes principaux</h4>
+      <ol>
+        <li>
+          <b>Répétition : </b> On utilise une palette de couleur qu'on avait généré à partir d'une photo de l'image de la couverture du jeu avec l'outil
+          <b><a href="https://coolors.co/image-picker">Image Picker</a></b> de Coolors.co qu'on a ensuite ajusté pour un meilleur contraste. Vous pouvez observez
+          cela à travers chaque page. Chaque couleure représente quelque chose de specifique :
+          <ul>
+            <li>le bleu pâle sert pour indiquer les liens dans le text</li>
+            <li>le jaune sert pour le titre et les éléments structurels</li>
+            <li>l'orange est utilisé pour tout le contenu principal</li>
+            <li>le mauve foncé est utilisée comme couleure de fond</li>
+          </ul>
+        </li>
+        <li>
+          <b>Contraste :</b> entre l'arrière plan et le texte est suffisant. Ceci a était vérifier avec le verificateur en ligne 
+          <b><a href="https://webaim.org/resources/contrastchecker/?fcolor=D4C44AFF&bcolor=351928">WebAim.</a></b>
+        </li>
+        <li>
+          <b>Proximité :</b> dans chaque page il y a une séparation logique des différents éléments et chaque image est positionné à côté du text auquel elle est relié.
+        </li>
+        <li>
+          <b>Alignement :</b> toute le text est aligné à gauche et chaque page est concue pour un sense de lecture en z.
+        </li>
+      </ol>
+      <h4>Respect des meilleures pratiques en conception graphique</h4>
+      <p>Toutes les images sur ce site utilisent le chargement différé et contiennent un text descriptif. <br>L'extrait de code si-dessous montre cela : </p>
+      <div class="code-block">
+        <pre><code>index.html:
+        &lt;img src="images/Carte_du_systeme.png" 
+        <span class="highlight">alt</span>="Image du système solaire" 
+        <span class="highlight">loading</span>="lazy"&gt;
+
+        nomai.html:
+        &lt;img src="images/Solanum.webp" 
+        <span class="highlight">alt</span>="Portrait de Solanum" 
+        <span class="highlight">loading</span>="lazy"&gt;
+
+        projetsabliere.html:
+        &lt;img src="images/Sun_station.webp" 
+        <span class="highlight">alt</span>="Station Solaire orbitant le Soleil" 
+        <span class="highlight">loading</span>="lazy"&gt;</code></pre>
+      </div>
+      <p>
+        Chaque image ne contient pas de contenu essentiel à la compréhension de la page et pourrait être enlever sans que la page perd son sens.
+        Comme vous pouvez voir sur cette même page, pour la navigation, nous utilisons du text stylisé par du css et non des images ce qui adhère au meilleures pratique de conception graphique.
+      </p>
       <h3>Bibliographie</h3>
+      <h4>
+        Sources consulté pour l'information
+      </h4>
+      <ul>
+        <li><b><a href="https://www.youtube.com/watch?v=yZSjE2gxuq8">Vidéo</a></b> Fait par The Lore Explorer pour l'information de la ligne de temps des Nomais</li>
+        <li><b><a href="https://outer-wilds.fandom.com/fr/wiki/Wiki_Outer_Wilds">Outer Wilds Fandom wiki français</a></b> pour tout autre information</li>
+      </ul>
+      <h4>
+        Sources des images
+      </h4>
+      <ul>
+        <li>
+          Image du fond : <a href="https://wallpaperaccess.com/outer-wilds"><b>WallpaperAccess</b></a>
+        </li>
+        <li>
+          Image du système solaire : <a href="https://outer-wilds.fandom.com/fr/wiki/Syst%C3%A8me_Solaire"><b>Outer Wilds Fandom wiki français</b></a>
+        </li>
+        <li>
+          Image de la lune quantique : <a href="https://outer-wilds.fandom.com/fr/wiki/Lune_quantique"><b>Outer Wilds Fandom wiki français</b></a>
+        </li>
+        <li>
+          Image de l'oeuil de l'univers : <a href="https://outerwilds.fandom.com/wiki/Eye_of_the_Universe?file=Eye+Symbol.png"><b>Outer Wilds Fandom wiki anglais</b></a>
+        </li>
+        <li>
+          Image de la capsule 1 :<a href="https://outerwilds.fandom.com/wiki/Escape_Pods?file=Escape-BH-Pod-Front.png"><b>Outer Wilds Fandom wiki anglais</b></a>
+        </li>
+        <li>
+          Image de la capsule 2 : <a href="https://outerwilds.fandom.com/wiki/Escape_Pods?file=Escape-ET-Pod-Front.png"><b>Outer Wilds Fandom wiki anglais</b></a>
+        </li>
+        <li>
+          Image de l'oeuil de l'univers : <a href="https://www.polygon.com/outer-wilds-guide/2019/12/3/20992461/interloper-comet-wanderer-frozen-nomai-shuttle-ruptured-core-ice-tunnels-ghost-matter/"><b>Polygon</b></a>
+        </li>
+      </ul>
     </main>
     <footer>
       <b>Dumitru Gliga, Pascal Brunet</b> - Modifié le 5 novembre 2026

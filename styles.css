@@ -2,7 +2,7 @@
 :root {
   --orange: #FF914DFF;
   --golden-sand: #d4c44aff;
-  --vintage-berry: rgb(53, 25, 40);
+  --vintage-berry: #351928;
   --pacific-blue: #41a4b7ff;
   --black: #020203ff;
 }
@@ -38,7 +38,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   color: var(--golden-sand);
 }
 
@@ -77,7 +78,7 @@ footer {
   margin-top: 24px;
   padding-top: 12px;
   border-top: 1px solid var(--orange);
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   position: relative;
 }
@@ -92,13 +93,26 @@ img {
   color: red;
 }
 
-.timeline-ending {
+.img-with-legend {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 70%;
+  min-width: 200px;
+  text-align: center;
+}
+
+#image-fin-civ-nomai {
   margin: 60px auto 30px;
   width: 80%;
-  text-align: center;
+}
+
+#image-oeuil-univers {
+  min-width: 175px;
+}
+
+.flex-image-text-container {
+  display: flex;
 }
 
 .section {
@@ -111,6 +125,11 @@ img {
   float: left;
   width: 40%;
   margin-right: 1%;
+}
+
+.special-text {
+  font-style: italic;
+  font-weight: bolder;
 }
 
 .img-in-ul {
@@ -176,4 +195,21 @@ svg {
 
   color: var(--golden-sand);
   font-weight: bold;
+}
+
+.code-block {
+  background: var(--black);
+  border: 1px solid var(--pacific-blue);
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.code-block pre {
+  margin: 0;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.highlight {
+  color: var(--pacific-blue);
 }
