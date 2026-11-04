@@ -58,12 +58,13 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: var(--orange);
+  color: var(--pacific-blue);
   margin: 0 8px;
+  font-weight: bold;
 }
 
 nav a:hover {
-  color: var(--pacific-blue);
+  color: var(--orange);
 }
 
 #currentPage {
@@ -98,7 +99,7 @@ img {
   flex-direction: column;
   align-items: center;
   width: 70%;
-  min-width: 200px;
+  min-width: ;
   text-align: center;
 }
 
