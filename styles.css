@@ -38,7 +38,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   color: var(--golden-sand);
 }
 
@@ -111,6 +112,11 @@ img {
   float: left;
   width: 40%;
   margin-right: 1%;
+}
+
+.special-text {
+  font-style: italic;
+  font-weight: bolder;
 }
 
 .img-in-ul {
