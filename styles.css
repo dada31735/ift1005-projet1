@@ -93,13 +93,24 @@ img {
   color: red;
 }
 
-.timeline-ending {
+.img-with-legend {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 60px auto 30px;
   width: 80%;
   text-align: center;
+}
+
+#image-fin-civ-nomai {
+  margin: 60px auto 30px;
+}
+
+#image-oeuil-univers {
+  min-width: 175px;
+}
+
+.flex-image-text-container {
+  display: flex;
 }
 
 .section {
