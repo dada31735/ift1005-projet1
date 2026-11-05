@@ -169,22 +169,6 @@ a {
   font-weight: bold;
 }
 
-.code-block {
-  background: #020203ff;
-  border: 1px solid #41a4b7ff;
-  padding: 10px;
-}
-
-.code-block pre {
-  margin: 0;
-  font-family: monospace;
-  font-size: 16px;
-}
-
-.highlight {
-  color: #41a4b7ff;
-}
-
 .sun-container {
   gap: 32px;
 }
