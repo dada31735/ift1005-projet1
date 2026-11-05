@@ -175,6 +175,14 @@ svg {
   font-size: larger;
 }
 
+.logo-ow {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 125px;
+  border: none;
+}
+
 .logo-badge {
   position: absolute;
   right: 10px;
