@@ -12,7 +12,9 @@
 <body>
   <div id="content-container">
     <header id="top">
-      <img src="images/Outer_Wilds_Logo.png" class="logo-ow" alt="Logo du jeu Outer Wilds" loading="lazy">
+      <div class="logo-ow">
+      <img src="images/Outer_Wilds_Logo.png"  alt="Logo du jeu Outer Wilds" loading="lazy">
+      </div>
       <h1>Les mystères des Nomais</h1>
     </header>
 
@@ -31,17 +33,17 @@
 
       <section>
         <h3>L'arrivée des Nomais</h3>
-        <div class="flex-image-text-container">
-          <p>
-            Escall, le chef des Nomais, reçoit le signal de l'Œil de l'Univers. Ce signal mystérieux ressemble fortement à
-          un œil et, selon leur interprétation, serait plus ancien que l'Univers lui-même. Ils téléportent leur vaisseau
-          dans le système solaire du jeu, mais celui-ci se retrouve coincé sur la planète Sombronces.
-          </p>
           <div id="image-oeuil-univers" class="img-with-legend">
             <img src="./images/Eye_Symbol.png" alt="image de l'oeuil de l'univers selon les Nomais" loading="lazy" class="img-in-text"
               id="eye-logo-img">
             <p><i><small>L'Œil de l'Univers</small></i></p>
           </div>
+        <div>
+          <p>
+            Escall, le chef des Nomais, reçoit le signal de l'Œil de l'Univers. Ce signal mystérieux ressemble fortement à
+          un œil et, selon leur interprétation, serait plus ancien que l'Univers lui-même. Ils téléportent leur vaisseau
+          dans le système solaire du jeu, mais celui-ci se retrouve coincé sur la planète Sombronces.
+          </p>
         </div>
       </section>
 
@@ -98,17 +100,17 @@
 
         <ul>
           <li>
-            <img src="images/Escape-ET-Pod2-Front.png" alt="Une image de la capsule 2 atterit sur Sablière rouge"
-              class="img-in-ul" loading="lazy">
             Le groupe de la capsule 2, que nous appellerons groupe 2 dans la suite de cette ligne du temps, établit une
             colonie sur Sablière Rouge, dans la seule grotte suffisamment grande pour les abriter. <br><br>
+            <img src="images/Escape-ET-Pod2-Front.png" alt="Une image de la capsule 2 atterit sur Sablière rouge"
+              class="img-in-ul" loading="lazy">
           </li>
           <li>
-            <img src="images/Escape-BH-Pod1-Front.webp" alt="Une image de la capsule 1 atterit sur Cravité"
-              class="img-in-ul" loading="lazy">
             Le groupe de la capsule 1, que nous appellerons groupe 1 dans la suite de cette ligne du temps, dispose de
             davantage de choix quant à l'endroit où établir sa colonie. Il décide toutefois de s'installer sous la
-            surface de la planète afin d'essayer d'exploiter le trou noir en son centre.
+            surface de la planète afin d'essayer d'exploiter le trou noir en son centre. <br><br>
+            <img src="images/Escape-BH-Pod1-Front.webp" alt="Une image de la capsule 1 atterit sur Cravité"
+              class="img-in-ul" loading="lazy">
           </li>
         </ul>
         <p>
@@ -133,8 +135,11 @@
           Sablière Rouge capable de repérer cette lune.
         </p>
 
-        <img src="images/Quantum_moon.webp" alt="Image de la lune quantique dans l'espace" class="img-in-text"
-          id="lune-quantique-img" loading="lazy">
+        
+          <div class="img-with-legend">
+            <img src="images/Quantum_moon.webp" alt="Image de la lune quantique dans l'espace" id="lune-quantique-img" loading="lazy">
+            <p><i><small>La lune quantique</small></i></p>
+          </div>
         <p>
           En parallèle, ils découvrent que si quelqu'un ou quelque chose tombe dans le trou noir, il est téléporté vers
           le trou blanc, situé à l'autre bout du système solaire. Ils construisent donc la Station du trou blanc, qui
