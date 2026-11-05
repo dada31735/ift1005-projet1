@@ -51,12 +51,8 @@ nav {
 
 nav a {
   text-decoration: none;
-  color:  #FF914DFF;
+  color:  #41a4b7ff;
   margin: 0 8px;
-}
-
-nav a:hover {
-  color: #41a4b7ff;
 }
 
 #currentPage {
@@ -97,17 +93,8 @@ img {
   height: 400px;
 }
 
-#image-oeuil-univers {
+#image-oeil-univers {
   margin: 0 auto;
-}
-
-.section {
-  gap: 16px;
-}
-
-.img-in-text {
-  width: 40%;
-  margin-right: 1%;
 }
 
 .special-text {
@@ -137,14 +124,7 @@ a {
 }
 
 .signet {
-  transform: translateX(50%);
-  background-color: #351928;
-  border: 0.5px solid #d4c44aff;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  font-size: larger;
+  font-size: small;
 }
 
 .logo-ow {
@@ -154,7 +134,6 @@ a {
 }
 
 .logo-badge {
-
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -169,6 +148,10 @@ a {
   font-weight: bold;
 }
 
-.sun-container {
-  gap: 32px;
+.img-nomai-1 {
+  width: 25%;
+}
+
+.img-nomai-2 {
+  width: 40%;
 }
