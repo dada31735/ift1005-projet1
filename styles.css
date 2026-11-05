@@ -1,21 +1,12 @@
 /* Fait par : Dumitru Gliga(20364289) et Pascal Brunet(20365645)  */
-:root {
-  --orange: #FF914DFF;
-  --golden-sand: #d4c44aff;
-  --vintage-berry: #351928;
-  --pacific-blue: #41a4b7ff;
-  --black: #020203ff;
-}
-
 header {
   margin: 0 auto;
 }
 
-
 body {
-  background-color: var(--black);
+  background-color: #020203ff;
   font-family: system-ui, "Segoe UI", sans-serif;
-  color: var(--orange);
+  color:  #FF914DFF;
   background-image: url(./images/4268145.jpg);
   background-size: 120% auto;
   background-repeat: no-repeat;
@@ -30,9 +21,9 @@ body {
   max-width: 800px;
   padding: 24px;
   margin: 24px auto;
-  background-color: var(--vintage-berry);
+  background-color: #351928;
   overflow-wrap: break-word;
-  border: 1px solid var(--golden-sand);
+  border: 1px solid #d4c44aff;
   box-shadow: 0 0 12px rgba(212, 196, 74, 0.15);
 }
 
@@ -44,7 +35,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: var(--golden-sand);
+  color: #d4c44aff;
 }
 
 h4 {
@@ -55,21 +46,21 @@ nav {
   padding-bottom: 12px;
   margin-bottom: 24px;
   text-align: center;
-  border-bottom: 1px solid var(--orange);
+  border-bottom: 1px solid  #FF914DFF;
 }
 
 nav a {
   text-decoration: none;
-  color: var(--orange);
+  color:  #FF914DFF;
   margin: 0 8px;
 }
 
 nav a:hover {
-  color: var(--pacific-blue);
+  color: #41a4b7ff;
 }
 
 #currentPage {
-  color: var(--golden-sand);
+  color: #d4c44aff;
 }
 
 li {
@@ -79,7 +70,7 @@ li {
 footer {
   margin-top: 24px;
   padding-top: 12px;
-  border-top: 1px solid var(--orange);
+  border-top: 1px solid  #FF914DFF;
   font-size: 16px;
   text-align: center;
 }
@@ -87,7 +78,7 @@ footer {
 img {
   width: 100%;
   border-radius: 6px;
-  border: 1px solid var(--pacific-blue);
+  border: 1px solid #41a4b7ff;
 }
 
 #spoilerText {
@@ -142,13 +133,13 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--pacific-blue);
+  color: #41a4b7ff;
 }
 
 .signet {
   transform: translateX(50%);
-  background-color: var(--vintage-berry);
-  border: 0.5px solid var(--golden-sand);
+  background-color: #351928;
+  border: 0.5px solid #d4c44aff;
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -168,19 +159,19 @@ a {
   height: 60px;
   border-radius: 50%;
 
-  background: radial-gradient(var(--black) 10% 20%, var(--vintage-berry) 25% 30%, var(--black) 35% 40%, var(--vintage-berry) 45% 50%, var(--black) 55% 60%, var(--vintage-berry) 65% 70% );
-  border: 2px solid var(--golden-sand);
+  background: radial-gradient(#020203ff 10% 20%, #351928 25% 30%, #020203ff 35% 40%, #351928 45% 50%, #020203ff 55% 60%, #351928 65% 70% );
+  border: 2px solid #d4c44aff;
   box-shadow:
-    0 2px 5px var(--black),
-    inset 0 2px 5px var(--orange);
+    0 2px 5px #020203ff,
+    inset 0 2px 5px  #FF914DFF;
 
-  color: var(--golden-sand);
+  color: #d4c44aff;
   font-weight: bold;
 }
 
 .code-block {
-  background: var(--black);
-  border: 1px solid var(--pacific-blue);
+  background: #020203ff;
+  border: 1px solid #41a4b7ff;
   padding: 10px;
 }
 
@@ -191,7 +182,7 @@ a {
 }
 
 .highlight {
-  color: var(--pacific-blue);
+  color: #41a4b7ff;
 }
 
 .sun-container {
