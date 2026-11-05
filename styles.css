@@ -187,7 +187,7 @@ svg {
   align-items: center;
   justify-content: center;
 
-  background: var(--vintage-berry);
+  background: radial-gradient(var(--black) 10% 20%, var(--vintage-berry) 25% 30%, var(--black) 35% 40%, var(--vintage-berry) 45% 50%, var(--black) 55% 60%, var(--vintage-berry) 65% 70% );
   border: 2px solid var(--golden-sand);
   box-shadow:
     0 2px 5px var(--black),
