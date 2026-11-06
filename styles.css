@@ -57,6 +57,8 @@ nav a {
 
 #currentPage {
   color: #d4c44aff;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 li {
