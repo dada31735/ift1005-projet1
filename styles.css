@@ -38,6 +38,10 @@ h4 {
   color: #d4c44aff;
 }
 
+h2 {
+  text-shadow: 1px 3px 4px rgb(125, 125, 125);
+}
+
 h4 {
   text-decoration: underline;
 }
